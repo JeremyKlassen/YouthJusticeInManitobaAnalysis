@@ -1,0 +1,98 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Youth admissions to correctional services","35100005","251-0010","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510000501",1;34;35,"CURRENT - a cube available to the public and that is current","Annual","1997-01-01","2020-01-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Admissions and releases",,""
+"3","Correctional services",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",23,
+"1","Prince Edward Island","[11]","3","1","",38,
+"1","Nova Scotia","[12]","4","1","",39,
+"1","New Brunswick","[13]","5","1","",3,
+"1","Quebec","[24]","6","1","",36,
+"1","Ontario","[35]","7","1","",5,
+"1","Manitoba","[46]","10","1","",40,
+"1","Saskatchewan","[47]","11","1","",41,
+"1","Alberta","[48]","12","1","",7,
+"1","British Columbia","[59]","13","1","",8,
+"1","Yukon","[60]","14","1","",42,
+"1","Northwest Territories including Nunavut","","15","1","t",10,
+"1","Northwest Territories","[61]","16","1","",43,
+"1","Nunavut","[62]","17","1","",44,
+"1","Ontario, Ministry of Children and Youth Services (MCYS)","","8","7","t",5,
+"1","Ontario, Ministry of Community Safety and Correctional Services (MCSCS)","","9","7","t",5,
+"1","Provinces and territories","[11124]","1","","",2,
+"2","Youth admissions","","1","","",34,
+"2","Youth releases","","2","","",35,
+"3","Pre-trial detention","","2","1","",5;13,
+"3","Provincial director remand","","3","1","",14,
+"3","Secure custody","","4","1","",12;15;37,
+"3","Open custody","","7","1","",12;17;37,
+"3","Total community sentences","","10","1","",37,
+"3","Custody and supervision (secure)","","5","4","t",12,
+"3","Young Offenders Act (YOA) (secure)","","6","4","t",,
+"3","Custody and supervision (open)","","8","7","t",12,
+"3","Young Offenders Act (YOA) (open)","","9","7","t",,
+"3","Community Portion of Custody Supervision","","11","10","",12,
+"3","Intensive support and supervision","","12","10","",19,
+"3","Deferred custody and supervision","","13","10","",20,
+"3","Supervised probation","","14","10","",21,
+"3","Other community sentences","","15","10","",22,
+"3","Total correctional services","","1","","",5;37,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3323","Youth Custody and Community Services"
+
+"Subject Code","Subject Name"
+"35","Crime and justice"
+
+"Note ID",Note
+1,"This product is based on data from the Youth Custody and Community Services Survey (YCCS), the Integrated Correctional Services Survey (ICSS) and Canadian Correctional Services Survey (CCSS). Data are based on a fiscal year (April 1 through March 31)."
+2,"The total does not necessarily represent all provinces and territories as there are variations in the availability of data for certain jurisdictions and years."
+3,"For New Brunswick, two changes in reporting systems should be noted; the first in 2000/2001 and the second in 2003/2004, the later representing the adoption of the Integrated Correctional Services Survey (ICSS). As such, caution is recommended when making trend comparisons for New Brunswick. New Brunswick release data are unavailable for 2000/2001 to 2002/2003 and community release data are unavailable prior to 2003/2004."
+5,"In Ontario data began to be provided through Integrated Correctional Services Survey (ICSS in 2004/2005). Prior to 2004/2005 Ontario data were submitted separately by two provincial ministries: the Ministry of Children and Youth Services (MCYS) and the Ministry of Community Safety and Correctional Services (MCSCS). Ontario did not report pre-trial detention for 12 to 15-year-olds prior to 2004/2005 and data for 12 to 15-year-olds was not provided for 2002/2003. As a result, caution is recommended when making trend comparisons for Ontario and Canada. Ontario community release data are unavailable prior to 2003/2004."
+7,"From 2005/2006 to 2011/2012, Alberta provided custody admissions and releases data differently than the survey definitions. Alberta's custody admissions data represented the individual's admission to custody and not changes of status during that period of custody. Alberta's custodial releases data represented the individual's final exit from custodial involvement and not changes of status during that period of supervision. As a result, Alberta's custodial admissions and releases are undercounted according to survey definitions. Caution is recommended when comparing these Alberta custody data to years prior to 2005/2006 or to other jurisdictions. Alberta community data are provided through Integrated Correctional Services Survey (ICSS) from 2004/2005 to 2011/2012, and as such, caution is recommended when comparing these data against those from other years. Alberta data are not available from 2012/2013 to 2018/2019. In 2019/2020, Alberta began reporting youth data to the Canadian Correctional Services Survey. Comparisons to data from previous years should be made with caution. In Alberta, Provincial Director Remand is included in the Remand (Pre-trial detention) counts. In 2020/2021, Alberta youth remand admissions data for 2019/2020 were revised, therefore figures may not correspond to data previously published."
+8,"British Columbia data began to be provided through Integrated Correctional Services Survey (ICSS) in 2009/2010. As such, caution is recommended when making trend comparisons for British Columbia. Probation data for 2003/2004 include all community supervision. British Columbia community release data are unavailable prior to 2003/2004. British Columbia began reporting to the Canadian Correctional Services Survey (CCSS) in 2016/2017. Comparisons to data from previous years should be made with caution."
+10,"Due to the creation of Nunavut from the Northwest Territories in 1999, data for years after 1998/1999 are reported separately as Nunavut or Northwest Territories, therefore data cannot be compared to those collected after that date."
+12,"The Youth Criminal Justice Act (YCJA), which came into effect April 1, 2003 and replaced the Young Offenders Act (YOA), stipulates that the final one-third of most custody sentences shall be served under community supervision."
+13,"To hold a young person temporarily in custody while awaiting trial or sentencing."
+14,"To hold a young person in custody following the breach of community supervision conditions of a custody and community supervision pursuant to a warrant issued by the provincial director."
+15,"Totals for secure custody include Youth Criminal Justice Act (YCJA) and Young Offenders Act (YOA) based admissions. A facility is considered secure when youths are detained by security devices, including those which operate with full perimeter security features and/or where youths are under constant observation. The extent to which facilities are "secure" varies across jurisdictions."
+17,"Totals for open custody include Youth Criminal Justice Act (YCJA) and Young Offenders Act (YOA) based admissions. A facility is considered "open" when there is minimal use of security devices or perimeter security such as custody in a community residential centre, group home, childcare institution, forest or wilderness camp or any like place or facility. The extent to which facilities are "open" varies across jurisdictions."
+19,"A sentencing option as an alternative to custody. Similar to probation, an intensive support and supervision order is served in the community under conditions, but provides closer monitoring and support than a probation order to assist the young person in changing his or her behaviour. This is an "opt-in" sanction under the Youth Criminal Justice Act (YCJA), meaning that provinces and territories may choose not to implement this option, taking into consideration available resources."
+20,"A deferred custody and supervision order allows a young person who would otherwise be sentenced to custody to serve the sentence in the community under a number of conditions. Similar to the conditional sentence of imprisonment for adults, violation of conditions may result in the young person being sent to custody."
+21,"A common type of community-based disposition where the offender is placed under the supervision of a probation officer or other designated person."
+22,"This category includes the number of youth who have commenced their period of supervision with sentences other than custody or probation, specifically, non-residential program, fine options, orders for restitution, compensation or other community or personal services, and other sentences deemed appropriate by the youth justice court."
+23,"Newfoundland and Labrador started providing data through Integrated Correctional Services Survey (ICSS) in 2003/2004. Caution is recommended when comparing these data against those from other years. Community release data are unavailable prior to 2004/2005. In 2017/2018, Newfoundland youth justice began reporting to a new survey, the Canadian Correctional Services Survey (CCSS).  The range of documents accepted by the CCSS is broader than the previous survey, the Integrated Correctional Services Survey (ICSS), and includes data on conditional discharges, personal service orders, compensation orders and prohibition orders.  Much of the increase in admissions in 2017/2018 can be attributable to this methodology change. Comparisons to data from previous years should be made with caution."
+34,"Admissions are collected each time a person begins any type of custodial or community supervision, and describe and measure the case-flow in correctional agencies over time. The same person can be included several times in the admission counts where the individual moves from one type of legal status to another (e.g., from open to secure custody) or re-enters the system in the same year. As such, admissions represent the number of entries within a fiscal year to sentenced custody, to remand, and to community supervision regardless of the individual's preceding or following legal status."
+35,"Releases represent the end of a legal status in correctional services and do not necessarily represent the end of supervision by correctional services. The same person can be included several times in the release counts where the individual moves from one type of legal status to another (e.g., from remand to sentenced custody and then to community services). As such, releases represent the number of movements within a fiscal year out of remand, sentenced custody and the community statuses regardless of the individual's preceding or following legal status."
+36,"Quebec data are unavailable as of 2011/2012 and release data are unavailable for all years."
+37,"Totals includes all services in which young persons may be supervised. The sum of programs listed may not equal the total because the following types of programs are not listed in the data table, but are included in the total: custody and supervision (murder); custody and supervision (other presumptive); intensive rehabilitative custody and supervision. For British Columbia, custody and supervision includes the following: custody and supervision (murder); custody and supervision (other presumptive). This sanction was made available as part of the Youth Criminal Justice Act (YCJA) which came into effect April 1st, 2003."
+38,"Prince Edward Island data are unavailable for 2004/2005 to 2008/2009; community release data are unavailable prior to 2003/2004 and release data are unavailable for 2000/2001."
+39,"Nova Scotia data are unavailable from 2009/2010 to 2016/2017 and community release data are unavailable for all years prior to 2017/2018. In 2017/2018, Nova Scotia youth counts were compiled from a new source, the Canadian Correctional Services Survey. Some changes from previous years may be due to this transition and the methodological differences between sources. Caution should be used when making comparisons to previous years. In Nova Scotia, from 2017/2018, open custody figures are included under the secure custody category. "
+40,"Manitoba release data are unavailable for 1999/2000. Community admissions data are unavailable prior to 2000/2001 and community release data are unavailable prior to 2003/2004."
+41,"Saskatchewan data are unavailable for 1997/1998 and 2009/2010 forward. Release data are unavailable for 2003/2004 and community release data are unavailable for all years. Saskatchewan began reporting to the Canadian Correctional Services Survey in 2016/2017. Comparisons to data from previous years should be made with caution."
+42,"Yukon community release data are unavailable prior to 2003/2004."
+43,"Due to the creation of Nunavut from the Northwest Territories in 1999, data for years prior to 1999/2000 are reported jointly as Northwest Territories including Nunavut. The 1999/2000 data include an unknown number of transfers from Nunavut. Community admission data are unavailable prior to 2003/2004 and community release data are unavailable prior to 2007/2008."
+44,"Due to the creation of Nunavut from the Northwest Territories in 1999, data for years prior to 1999/2000 are reported jointly as Northwest Territories including Nunavut. Data are unavailable prior to 2001/2002."
+
+"Correction ID","Correction Date","Correction Note"
